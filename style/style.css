@@ -1,0 +1,13 @@
+.header-nav{
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 0px 10px;
+
+}
