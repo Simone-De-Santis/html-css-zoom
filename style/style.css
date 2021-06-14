@@ -1,13 +1,48 @@
+body{
+    max-height: 80vh;
+}
 .header-nav{
     height: 50px;
     background-color: black;
-    position: fixed;
     width: 100%;
-
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
 
     padding: 0px 10px;
 
+}
+
+
+.container-main{
+    background-color: tomato;
+    height: 100vh;
+    overflow: auto;
+}
+
+.container-rooms{
+    margin: 0 auto;
+    width: 90vw;
+    background-color: thistle;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+.container-rooms .rooms{
+    background-color: violet;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+}
+span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+.footer-nav{
+    justify-content: space-between
 }

@@ -22,7 +22,9 @@ li{
 .flex{
     display: flex;
 }
-
+img{
+    width: 100%;
+}
 
 
 /* icon  */
@@ -31,13 +33,48 @@ li{
     font-weight: 900;
     padding: 5px;
 }
+.icon.microfhone-silent::before{
+    content: "\f539";
+}
+.icon.microfhone::before{
+    content: "\f130";
+}
+.icon.video::before{
+    content: "\f03d";
+}
 .icon.buro::before{
     content: "\f43c";
 }
-
 .icon.expand::before{
     content: "\f31e";
 }
+.icon.user-plus::before{
+    content: "\f234";
+}
+.icon.user-friends::before{
+    content: "\f500";
+}
+.icon.chart-bar::before{
+    content: "\f080";
+}
+.icon.share-square::before{
+    content: "\f14d";
+}
+.icon.comment::before{
+    content: "\f075";
+}
+.icon.record::before{
+    content: "\f8d9";
+}
+
+.icon.square::before{
+    content: "\f009";
+}
+.icon.spinner::before{
+    content: "\f110";
+}
+
+
 .btn-nav{
     background-color:#4a4a4a ;
     border-radius: 15px;
