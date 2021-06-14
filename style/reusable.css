@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* icon  */
+.icon::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    
+}
