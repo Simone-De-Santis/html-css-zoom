@@ -11,9 +11,7 @@ li{
     list-style: none;
     text-decoration: none;
 }
-/* a{
-    text-decoration: none;
-} */
+
 .btn {
     text-decoration: none;  
     padding: 8px 20px;
@@ -59,6 +57,7 @@ img{
 }
 .icon.share-square::before{
     content: "\f14d";
+    color: #4bc800;
 }
 .icon.comment::before{
     content: "\f075";
@@ -80,4 +79,11 @@ img{
     border-radius: 15px;
     padding: 10px;
     margin: 5px;
+}
+
+.btn-footer{
+ 
+    padding: 10px;
+   
+
 }

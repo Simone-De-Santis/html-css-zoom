@@ -15,25 +15,24 @@ body{
 
 
 .container-main{
-    background-color: tomato;
-    height: 100vh;
+    background-color: black;
+    height: calc(100vh - 103px);
     overflow: auto;
 }
 
 .container-rooms{
     margin: 0 auto;
-    width: 90vw;
-    background-color: thistle;
+    width: 80vw;    
     flex-wrap: wrap;
     justify-content: flex-start;
 
 
 }
 .container-rooms .rooms{
-    background-color: violet;
+    
     height: 200px;
     width: 300px;
-    margin: 20px;
+    margin: 3px;
     position: relative;
 }
 span{
@@ -44,5 +43,19 @@ span{
     padding: 5px;
 }
 .footer-nav{
-    justify-content: space-between
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 10px;
 }
+
+.footer-nav a{
+    text-decoration: none;
+} 
+
